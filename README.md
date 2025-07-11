@@ -1,59 +1,42 @@
-# SPAGestion
+# Gestor Personal de Hábitos
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+Esta aplicación es una SPA desarrollada con Angular y Bootstrap que permite gestionar y hacer seguimiento de hábitos diarios. Su objetivo es facilitar el control y mejora de rutinas personales mediante un sistema sencillo e intuitivo.
 
-## Development server
+## Funcionalidades principales
 
-To start a local development server, run:
+- Crear, editar y eliminar hábitos personalizados con nombre, color e icono.
+- Marcar la realización diaria de cada hábito para llevar un registro.
+- Visualizar el progreso semanal de los hábitos con indicadores claros.
+- Consultar estadísticas básicas como porcentaje de cumplimiento y rachas.
 
-```bash
-ng serve
-```
+## Tecnologías usadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Angular (versión 17+)
+- Bootstrap 5 para estilos y diseño responsive
+- TypeScript para tipado y estructura del código
 
-## Code scaffolding
+## Estructura del proyecto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+El proyecto está organizado en módulos y componentes según buenas prácticas de Angular, con separación clara entre:
 
-```bash
-ng generate component component-name
-```
+- Componentes reutilizables (navbar, footer, formularios)
+- Páginas principales (lista de hábitos, seguimiento, estadísticas)
+- Servicios para la gestión de datos y persistencia
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Cómo ejecutar la aplicación
 
-```bash
-ng generate --help
-```
+1. Clonar el repositorio.
+2. Instalar dependencias con `npm install`.
+3. Ejecutar el servidor de desarrollo con `ng serve`.
+4. Abrir en el navegador `http://localhost:4200`.
 
-## Building
+## Futuras mejoras
 
-To build the project run:
+- Integrar backend con Spring Boot y base de datos PostgreSQL.
+- Añadir autenticación de usuarios.
+- Incorporar gráficos avanzados con librerías especializadas.
+- Implementar modo oscuro y accesibilidad.
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Proyecto creado para mostrar competencias en Angular, diseño modular y desarrollo frontend profesional.
